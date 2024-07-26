@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="login.html">
+        <button class="login-button" >Log In</button>
+      </a>
+  </nav>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="images/logo.png" alt="logo" />
+        <h2>CodeForces</h2>
+      </div>
+      <ul class="sidebar-links">
+        <h4>
+          <span>Contest</span>
+          <div class="menu-separator"></div>
+        </h4>
+        <li>
+          <a href="profile.html">
+            <span class="material-symbols-outlined"> account_circle </span
+            >Profile</a
+          >
+        </li>
+        <li>
+          <a href="ratings.html"
+            ><span class="material-symbols-outlined"> leaderboard </span
+            >Leaderboard</a
+          >
+        </li>
+        <li>
+          <a href="upcomingcontest.html"
+            ><span class="material-symbols-outlined"> monitoring </span
+            >Upcoming Contest</a
+          >
+        </li>
+        <h4>
+          <span>Problems</span>
+          <div class="menu-separator"></div>
+        </h4>
+        <li>
+          <a href="Explore.html"
+            ><span class="material-symbols-outlined"> explore </span>Explore</a
+          >
+        </li>
+        <li>
+          <a href="Problemset.html"
+            ><span class="material-symbols-outlined"> groups </span>Problemset</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><span class="material-symbols-outlined"> flag </span>Report</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><span class="material-symbols-outlined">
+              notifications_active </span
+            >Notifications</a
+          >
+        </li>
+        <h4>
+          <span>Account</span>
+          <div class="menu-separator"></div>
+        </h4>
+        <li>
+          <a href="#"
+            ><span class="material-symbols-outlined"> settings </span
+            >Settings</a
+          >
+        </li>
+        <li>
+          <a href="login.html"
+            ><span class="material-symbols-outlined"> message </span>Login/Signup</a>
+        </li>
+      </ul>
+        </div>
+      </div>
+    </aside>
+
+    <section class="competitive-coding">
+      <div class="coding-container">
+          <div class="coding-text">
+              <h2>Competitive Coding</h2>
+              <p>Competitive coding is a mental sport which enables you to think critically and solve complex problems with the help of algorithms and data structures. It enhances problem-solving skills and prepares you for interviews and real-world scenarios.</p>
+          </div>
+          <div class="container">
+              <span class="text first-text">Coding is </span>
+              <span class="text sec-text">Fun</span>
+          </div>
+      
+          <script>
+              const text = document.querySelector(".sec-text");
+      
+              const textLoad = () => {
+                  setTimeout(() => {
+                      text.textContent = "Fun";
+                  }, 0);
+                  setTimeout(() => {
+                      text.textContent = "Love";
+                  }, 4000);
+                  setTimeout(() => {
+                      text.textContent = "Life";
+                  }, 8000); 
+              }
+      
+              textLoad();
+              setInterval(textLoad, 10000);
+          </script>
+      </div>
+  </section>
+
+  <section class="contests-practice">
+      <div class="contests">
+          <h2>Upcoming Contests</h2>
+          <p>Stay tuned for exciting upcoming contests! Participating in these contests will help you improve your skills and compete with coders from around the world.</p>
+      </div>
+      <div class="practice-problems">
+          <h2>Practice Problems</h2>
+          <p>Explore a wide range of practice problems to hone your coding skills. Our problems are categorized by difficulty and topic, making it easy for you to find the right challenges.</p>
+      </div>
+  </section>
+
+  <section class="bento-boxes">
+      <div class="bento-box">
+          <h3>Contests</h3>
+      </div>
+      <div class="bento-box middle-box">
+          
+      </div>
+      <div class="bento-box">
+          <h3>Problems</h3>
+      </div>
+  </section>
+
+  <footer class="footer">
+      <p>&copy; 2024 Codef. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-left">
+            <div class="profile-header">
+                <img src="profile-image.png" alt="Profile Image" class="profile-image">
+                <div class="profile-details">
+                    <h2>Mrugaja Joshi</h2>
+                    <p>Global Rank #781347</p>
+                    <p>Since: Jul 2024</p>
+                </div>
+            </div>
+            <div class="profile-info">
+                <p><i class="icon"></i>Pune Institute Of Computer Technology</p>
+                <p>0 Followers • 0 Following</p>
+                <button>Edit Profile</button>
+            </div>
+            <div class="profile-stats">
+                <h3>My Stats</h3>
+                <p>Global Rank <span>781347</span></p>
+                <p>University Rank <span>4</span></p>
+                <p>Time Spent <span>2 seconds</span></p>
+                <p>Total Problems Solved <span>0</span></p>
+            </div>
+        </div>
+        <div class="profile-right">
+            <div class="progress-section">
+                <h2>My Progress</h2>
+                <div class="progress-chart">
+                    <canvas id="dailyGoalChart"></canvas>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-label">Total Score</span>
+                        <span class="stat-value">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Coins</span>
+                        <span class="stat-value">50</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Streak</span>
+                        <span class="stat-value">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Problems</span>
+                        <span class="stat-value">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity-section">
+                <h2>My Activity</h2>
+                <p>0 Submissions this year</p>
+                <div class="activity-chart">
+                    <!-- Activity chart will go here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="css/profile.js"></script>
+</body>
+</html>

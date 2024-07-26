@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratings</title>
+    <link rel="stylesheet" href="css/ratings.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><span>RATINGS📈</span></h1>
+            <div class="filter-bar">
+                <button class="filter-btn active"><b>RATING</b></button>
+                <button class="filter-btn"><b>RATING (ALL)</b></button>
+                <button class="filter-btn"><b>FRIENDS RATING</b></button>
+                <div class="dropdowns">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option value="any">Any Country</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="australia">Australia</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="canada">Canada</option>
+                        <option value="china">China</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="india">India</option>
+                        <option value="indonesia">Indonesia</option>
+                        <option value="italy">Italy</option>
+                        <option value="japan">Japan</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="russia">Russia</option>
+                        <option value="saudi_arabia">Saudi Arabia</option>
+                        <option value="south_africa">South Africa</option>
+                        <option value="south_korea">South Korea</option>
+                        <option value="united_kingdom">United Kingdom</option>
+                        <option value="united_states">United States</option>
+                    </select>
+                    <label for="city">City:</label>
+                    <select id="city">
+                        <option value="any">Any City</option>
+                        <option value="new_york">New York</option>
+                        <option value="los_angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="houston">Houston</option>
+                        <option value="phoenix">Phoenix</option>
+                        <option value="philadelphia">Philadelphia</option>
+                        <option value="san_antonio">San Antonio</option>
+                        <option value="san_diego">San Diego</option>
+                        <option value="dallas">Dallas</option>
+                        <option value="san_jose">San Jose</option>
+                        <option value="austin">Austin</option>
+                        <option value="jacksonville">Jacksonville</option>
+                        <option value="fort_worth">Fort Worth</option>
+                        <option value="columbus">Columbus</option>
+                        <option value="charlotte">Charlotte</option>
+                        <option value="san_francisco">San Francisco</option>
+                        <option value="indianapolis">Indianapolis</option>
+                        <option value="seattle">Seattle</option>
+                        <option value="denver">Denver</option>
+                        <option value="washington_dc">Washington D.C.</option>
+                    </select>
+                    <label for="organization">Organization:</label>
+                    <select id="organization">
+                        <option value="any">Any Organization</option>
+                        <option value="google">Google</option>
+                        <option value="microsoft">Microsoft</option>
+                        <option value="apple">Apple</option>
+                        <option value="amazon">Amazon</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="ibm">IBM</option>
+                        <option value="intel">Intel</option>
+                        <option value="cisco">Cisco</option>
+                        <option value="oracle">Oracle</option>
+                        <option value="salesforce">Salesforce</option>
+                        <option value="adobe">Adobe</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="sony">Sony</option>
+                        <option value="dell">Dell</option>
+                        <option value="hp">HP</option>
+                        <option value="sap">SAP</option>
+                        <option value="uber">Uber</option>
+                        <option value="lyft">Lyft</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="tesla">Tesla</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="spotify">Spotify</option>
+                        <option value="netflix">Netflix</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="square">Square</option>
+                        <option value="airbnb">Airbnb</option>
+                        <option value="dropbox">Dropbox</option>
+                        <option value="zoom">Zoom</option>
+                        <option value="shopify">Shopify</option>
+                        <option value="slack">Slack</option>
+                        <option value="pinterest">Pinterest</option>
+                        <option value="ebay">eBay</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="huawei">Huawei</option>
+                        <option value="xiaomi">Xiaomi</option>
+                        <option value="baidu">Baidu</option>
+                        <option value="alibaba">Alibaba</option>
+                        <option value="tencent">Tencent</option>
+                        <option value="bytedance">ByteDance</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>WHO</th>
+                        <th>Contests Participated (#)</th>
+                        <th>Rating</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody id="ratings-table-body">
+                    <!-- Data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="css/ratings.js"></script>
+</body>
+</html>
